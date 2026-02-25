@@ -112,48 +112,6 @@ Uvicorn
 
 Python 3.11+
 
-Project Structure--
-hrms_portal/
-|
-|-- backend/
-|   |-- manage.py
-|   |-- requirements.txt
-|   |
-|   |-- peopletrack_backend/
-|   |   |-- __init__.py
-|   |   |-- settings.py
-|   |   |-- urls.py
-|   |   |-- wsgi.py
-|   |   `-- asgi.py
-|   |
-|   `-- hr/
-|       |-- __init__.py
-|       |-- models.py
-|       |-- serializers.py
-|       |-- views.py
-|       |-- urls.py
-|       |-- admin.py
-|       `-- migrations/
-|
-`-- frontend/
-    |-- package.json
-    |-- vite.config.js
-    |
-    `-- src/
-        |-- main.jsx
-        |-- App.jsx
-        |
-        |-- pages/
-        |   |-- Dashboard.jsx
-        |   |-- Employees.jsx
-        |   `-- Attendance.jsx
-        |
-        |-- components/
-        |   |-- Layout.jsx
-        |   `-- Sidebar.jsx
-        |
-        `-- services/
-            `-- api.js
 Node.js 18+
 
 PostgreSQL 17+
