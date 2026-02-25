@@ -24,7 +24,7 @@ function Layout({ children }) {
 
           <div className="topbar-right">
             <span className="admin-text">Admin</span>
-            <div className="avatar-small">A</div>
+            
           </div>
         </div>
 
