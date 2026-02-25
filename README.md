@@ -107,29 +107,34 @@ Pydantic
 Uvicorn
 
 📂 Project Structure
-hrms/
+hrms_portal/
+│
 ├── backend/
-│   ├── app/
-│   │   ├── main.py          # FastAPI app setup + CORS
-│   │   ├── database.py      # PostgreSQL connection
-│   │   ├── models.py        # SQLAlchemy ORM models
-│   │   ├── schemas.py       # Pydantic validation schemas
-│   │   └── routers/
-│   │       ├── employees.py
-│   │       ├── attendance.py
-│   │       └── dashboard.py
-│   ├── requirements.txt
-│   └── .env
+│   ├── peopletrack_backend/
+│   │   ├── settings.py
+│   │   ├── urls.py
+│   │   ├── wsgi.py
+│   │   └── asgi.py
+│   │
+│   ├── hr/
+│   │   ├── models.py
+│   │   ├── serializers.py
+│   │   ├── views.py
+│   │   ├── urls.py
+│   │   └── admin.py
+│   │
+│   ├── manage.py
+│   └── requirements.txt
 │
 └── frontend/
     ├── src/
-    │   ├── api/
-    │   ├── components/
     │   ├── pages/
-    │   ├── types/
-    │   └── App.tsx
+    │   ├── components/
+    │   ├── services/api.js
+    │   └── App.jsx
+    │
     ├── package.json
-    └── vite.config.ts
+    └── vite.config.js
 ⚙️ Running Locally
 🔹 Prerequisites
 
@@ -261,7 +266,6 @@ CSV export
 
 Pagination for large datasets
 
-Docker support
 
 CI/CD pipeline integration
 
