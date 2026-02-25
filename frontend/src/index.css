@@ -353,3 +353,56 @@ select:focus {
     text-align: center;
   }
 }
+
+
+/* ============================
+   MOBILE SIDEBAR FIX
+============================ */
+
+.menu-btn {
+  display: none;
+  font-size: 24px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.close-btn {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 22px;
+  margin-bottom: 20px;
+  color: white;
+  cursor: pointer;
+}
+
+.overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.45);
+  z-index: 900;
+}
+
+/* Mobile only */
+@media (max-width: 768px) {
+
+  .menu-btn {
+    display: block;
+  }
+
+  .sidebar-premium {
+    left: -260px;
+    top: 0;
+    position: fixed;
+    transition: 0.3s ease;
+  }
+
+  .sidebar-premium.open {
+    left: 0;
+  }
+
+  .close-btn {
+    display: block;
+  }
+}
