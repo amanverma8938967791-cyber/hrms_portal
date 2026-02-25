@@ -111,6 +111,7 @@ hrms_portal/
 │
 ├── backend/
 │   ├── peopletrack_backend/
+
 │   │   ├── settings.py
 │   │   ├── urls.py
 │   │   ├── wsgi.py
