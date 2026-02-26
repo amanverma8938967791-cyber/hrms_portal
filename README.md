@@ -13,6 +13,7 @@ Backend API - 	https://hrms-portal-6oro.onrender.com
 GIT - https://github.com/amanverma8938967791-cyber/hrms_portal
 
 API Documentation (Swagger)	https://hrms-portal-6oro.onrender.com/docs
+
 ✨ Features
 📊 Core Features
 🔹 Dashboard
@@ -46,10 +47,6 @@ Mark attendance:
 Present
 
 Absent
-
-Late
-
-Half Day
 
 Edit attendance records
 
